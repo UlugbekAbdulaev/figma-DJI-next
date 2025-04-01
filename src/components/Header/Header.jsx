@@ -13,8 +13,8 @@ function Header() {
         </div>
         <div>
             <Carousel autoplay>
-                <div><img src="/images/apple.png" alt="apple foto" /></div>
-                <div><img src="/images/applee.png" alt="apple foto" /></div>
+                <div><img src="/images/Apple.png" alt="apple foto" /></div>
+                <div><img src="/images/Applee.png" alt="apple foto" /></div>
             </Carousel>
             
         </div>
