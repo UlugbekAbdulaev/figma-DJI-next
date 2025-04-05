@@ -1,4 +1,5 @@
 import { HeartOutlined, SearchOutlined, ShoppingOutlined } from '@ant-design/icons'
+import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
@@ -38,6 +39,9 @@ function Navbar() {
                             <option value="">PAGES</option>
                         </select>
                         <p>Contact</p>
+                        <Link href={"/Servis"}>
+                        <p>Servis</p>
+                        </Link>
                     </div>
                     <div className='flex gap-3 text-2xl'>
                         <SearchOutlined />
